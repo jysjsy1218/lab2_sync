@@ -4,7 +4,7 @@
 *
 *   lab2_bst_test.c :
 *       - thread-safe bst test code.
-*       - coarse-grained, fine-grained lock test code
+*       - coarse-grained, fine-grained lock test code.
 *
 * You can compare single thread result, coarse grained result and fine grained result.
 */
@@ -17,8 +17,6 @@
 #include <string.h>
 #include <unistd.h>
 #include <time.h>
-#include <sys/time.h>
-#include <unistd.h>
 
 #include "lab2_sync_types.h"
 
